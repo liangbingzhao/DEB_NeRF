@@ -65,6 +65,14 @@ cs300_upload/
 │                                            documents the closed-form spectral CT algorithm
 │                                            that Path D mirrors mathematically
 │
+├── visualize_result/                    ← curated 3D render outputs (one per walnut)
+│   ├── walnut_1/{25v_winner, 50v_winner}/         ← Path D Softplus α+bone defaults
+│   ├── walnut_2/{30_80_50v, 20_60_water_init_50v}/← cross-walnut pair / init shifts
+│   ├── walnut_3/20_70_25v/                        ← Walnut_3 Borda winner
+│   └── README.md                                   ← per-subdir selection logic
+│       (each subdir: headline_panel.png + 4 rotation GIFs: basis2 false-color,
+│        α_w, α_2, ρ_total)
+│
 └── experiments/                          ← evaluation, generators, analysis
     ├── README.md                         ← experiments quick reference
     ├── exp_log.md                        ← detailed experiment log (Chinese, technical record)
