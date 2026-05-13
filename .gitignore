@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.pytest_cache/
+
+# Data / training outputs (must NOT be committed — see README §3)
+SAX-NeRF/data/
+SAX-NeRF/pretrained/
+SAX-NeRF/logs/
+experiments/logs/
+experiments/res_*/
+experiments/walnut_*/
+experiments/chest_*/
+experiments/dcgm/
+experiments/recon_check/
+data_preprocess/Walnut_*/
+data_preprocess/Reconstructions*/
+data_preprocess/CalibrationTable/
+data_preprocess/dcgm/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*.swo
+
+# Local agent / settings
+.claude/
+CLAUDE.md
